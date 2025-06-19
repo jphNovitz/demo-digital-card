@@ -1,11 +1,23 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import globalDatas from '../../data/infos.json'
+import Contact from '../components/Contact.astro';
+import SocialMedia from '../components/Social-media.astro';
+import Action from '../components/Action.astro';
+import Description from '../components/Description.astro';
+import Modal from '../components/Modal.astro';
+import Layout from '../layouts/Layout.astro';
+import "../styles/global.css";
+console.log(globalDatas.legal_info);
 ---
 
 <Layout>
-	<Welcome />
-</Layout>
+  <Contact 
+    contactInfos={globalDatas.contact_info}
+    legalInfos={globalDatas.legal_info}
+  />
+  <Action contactInfos={globalDatas.contact_info}  />
+  <Description description={globalDatas.description}/>
+  <SocialMedia links={globalDatas.social_links}/>
+  <Modal/>
+ </Layout>

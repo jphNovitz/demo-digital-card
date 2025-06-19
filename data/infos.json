@@ -1,0 +1,22 @@
+{
+  "contact_info": {
+    "company_name": "Entreprise Exemple SPRL",
+    "individual_name": "Jean Dupont",
+    "address": "Rue de l’Industrie 45, 1300 Wavre",
+    "phone": "+32 470 12 34 56",
+    "email": "contact@entrepriseexemple.be",
+    "website": "https://exempl.es",
+    "business_hours": "Lun–Ven : 9h–18h"
+  },
+  "legal_info": {
+    "legal_form": "SRL",
+    "vat_number": "BE0123456789",
+    "privacy_policy_url": "https://www.entrepriseexemple.be/mentions-legales"
+  },  
+  "social_links": {
+      "facebook": "https://facebook.com/entrepriseexemple",
+      "linkedin": "https://linkedin.com/company/entrepriseexemple"
+  },
+  "description": "Une description décrire quelle est votre activité et quelle est votre plus value, on peut mettre deux phrases mais pas de blabla sur une carte de visite"
+}
+
