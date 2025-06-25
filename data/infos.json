@@ -5,7 +5,7 @@
     "address": "Rue de l’Industrie 45, 1300 Wavre",
     "phone": "+32 470 12 34 56",
     "email": "contact@entrepriseexemple.be",
-    "website": "https://exempl.es",
+    "website": "https://jphiweb.be",
     "business_hours": "Lun–Ven : 9h–18h"
   },
   "legal_info": {
@@ -14,8 +14,8 @@
     "privacy_policy_url": "https://www.entrepriseexemple.be/mentions-legales"
   },  
   "social_links": {
-      "facebook": "https://facebook.com/entrepriseexemple",
-      "linkedin": "https://linkedin.com/company/entrepriseexemple"
+      "facebook": "#",
+      "linkedin": "#"
   },
   "description": "Ceci est une démonstration de carte de visite digitale conçue pour les indépendants et freelances.  <a class='link link-primary' href='https://jphiweb.be/service/carte-de-visite-numerique'>Découvrir l’offre de création de carte de visite virtuelle</a>"
 }
