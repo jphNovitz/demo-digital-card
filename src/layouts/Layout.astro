@@ -9,8 +9,36 @@ import globalDatas from './infos.json'
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Démo – Carte de visite digitale interactive | jphiweb.be</title>
+    <meta name="description" content="Exemple interactif de carte de visite digitale responsive. Inspirée de notre offre pro. Explorez les fonctionnalités, design et partage.">
+
+    <!-- Canonical (optionnel ici, sauf si duplicatés possibles) -->
+    <link rel="canonical" href="https://demo-carte-visite-numerique.jphiweb.be" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Démo de carte de visite digitale" />
+    <meta property="og:description" content="Visualisez notre carte de visite digitale responsive. Idéal pour indépendants, artisans, thérapeutes." />
+    <meta property="og:url" content="https://demo-carte-visite-numerique.jphiweb.be" />
+    <meta property="og:image" content="https://card.monsite.be/images/demo-preview.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Démo – Carte de visite digitale" />
+    <meta name="twitter:description" content="Une carte de visite digitale simple, efficace et mobile. Testez-la en ligne.">
+    <meta name="twitter:image" content="https://card.monsite.be/images/demo-preview.jpg" />
+
+    <!-- Lien contextuel vers l’article -->
+    <link rel="author" href="https://www.linkedin.com/in/jphnovitz" />
+	</head>
+	<body class="bg-base-300">
+    <div class="w-screen min-h-screen p-4 overflow-hidden flex flex-col justify center">
+		  <slot />
+    </div>
+	</body>
+</html>
+
+    
 	</head>
 	<body class="bg-base-300">
     <div class="w-screen min-h-screen p-4 overflow-hidden flex flex-col justify center">
