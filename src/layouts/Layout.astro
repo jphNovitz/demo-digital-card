@@ -31,9 +31,14 @@ import globalDatas from './infos.json'
     <!-- Lien contextuel vers l’article -->
     <link rel="author" href="https://www.linkedin.com/in/jphnovitz" />
 	</head>
-	<body class="w-screen min-h-screen p-4 overflow-hidden flex justify-center items-center bg-base-300">
+	<body class="w-screen min-h-screen p-4  flex flex-col justify-center items-center bg-base-300">
     <div class="w-full max-w-lg bg-base-100 border border-base-200 rounded-md shadow-md">
 		  <slot />
+    </div>
+    <div clas="pt-12">
+      <p class="pt-12 text-sm">
+        <a href="https://jphiweb.be/focus-sur/la-carte-de-visite-digitale-une-presence-simple-efficace-et-evolutive">jphiweb.be: pourquoi une carte de visite numérique ?</a>
+      </p>
     </div>
 	</body>
 </html>
